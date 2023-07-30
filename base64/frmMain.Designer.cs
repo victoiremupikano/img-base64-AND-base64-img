@@ -81,7 +81,7 @@
             this.gpEncoder.Controls.Add(this.btnChooseImg);
             this.gpEncoder.Location = new System.Drawing.Point(12, 19);
             this.gpEncoder.Name = "gpEncoder";
-            this.gpEncoder.Size = new System.Drawing.Size(791, 199);
+            this.gpEncoder.Size = new System.Drawing.Size(822, 199);
             this.gpEncoder.TabIndex = 2;
             this.gpEncoder.TabStop = false;
             this.gpEncoder.Text = "Encoder";
@@ -132,7 +132,7 @@
             this.txtImgToBase64.Multiline = true;
             this.txtImgToBase64.Name = "txtImgToBase64";
             this.txtImgToBase64.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtImgToBase64.Size = new System.Drawing.Size(588, 124);
+            this.txtImgToBase64.Size = new System.Drawing.Size(619, 124);
             this.txtImgToBase64.TabIndex = 2;
             this.txtImgToBase64.TextChanged += new System.EventHandler(this.txtImgToBase64_TextChanged);
             // 
@@ -146,7 +146,7 @@
             this.gpDecoder.Controls.Add(this.txtBase64ToImg);
             this.gpDecoder.Location = new System.Drawing.Point(12, 232);
             this.gpDecoder.Name = "gpDecoder";
-            this.gpDecoder.Size = new System.Drawing.Size(791, 183);
+            this.gpDecoder.Size = new System.Drawing.Size(822, 183);
             this.gpDecoder.TabIndex = 3;
             this.gpDecoder.TabStop = false;
             this.gpDecoder.Text = "Decoder";
@@ -173,7 +173,7 @@
             // 
             this.picImage2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picImage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picImage2.Location = new System.Drawing.Point(603, 19);
+            this.picImage2.Location = new System.Drawing.Point(634, 19);
             this.picImage2.Name = "picImage2";
             this.picImage2.Size = new System.Drawing.Size(182, 124);
             this.picImage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -190,7 +190,7 @@
             this.txtBase64ToImg.Multiline = true;
             this.txtBase64ToImg.Name = "txtBase64ToImg";
             this.txtBase64ToImg.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtBase64ToImg.Size = new System.Drawing.Size(588, 124);
+            this.txtBase64ToImg.Size = new System.Drawing.Size(619, 124);
             this.txtBase64ToImg.TabIndex = 3;
             this.txtBase64ToImg.TextChanged += new System.EventHandler(this.txtBase64ToImg_TextChanged);
             // 
@@ -198,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 425);
+            this.ClientSize = new System.Drawing.Size(846, 425);
             this.Controls.Add(this.gpDecoder);
             this.Controls.Add(this.gpEncoder);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
